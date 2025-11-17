@@ -1,12 +1,88 @@
-# React + Vite
+# 🌍 WorldWise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Banner](./public/logo.png)  
+_A modern, interactive city & country exploration tool built with React, Leaflet, and CSS Modules._
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About WorldWise
 
-## Expanding the ESLint configuration
+**WorldWise** is an interactive web application that lets users explore cities and countries on a dynamic map, view detailed city information, and manage their favorite locations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Key highlights:
+
+- Real-time geolocation to find your current position.
+- Interactive map with clickable cities and countries using **React-Leaflet**.
+- Fully dynamic city and country lists with CRUD functionality.
+- Authentication-protected routes for personalized user experiences.
+- Component-level styling with **CSS Modules** for scoped, maintainable CSS.
+
+---
+
+## 🎨 Features
+
+- **Interactive Map**: Pan, zoom, and click on the map to add new locations.
+- **City Management**: Add, delete, and view detailed information about cities.
+- **Authentication**: Login & protected routes for personalized access.
+- **Responsive Design**: Optimized for desktop and mobile.
+- **Modern Tech Stack**: Built with React 19, Vite, React Router 7, and Leaflet.
+- **Scoped Styling**: CSS Modules used for clean, conflict-free styles.
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+
+- React 19 & React Router 7
+- React-Leaflet & Leaflet
+- React DatePicker
+- **CSS Modules** for component-level styling
+- Google Fonts (Manrope)
+
+**Backend / API**
+
+- `json-server` for local API mocking
+- RESTful endpoints for cities and countries
+
+**Development Tools**
+
+- Vite for fast bundling
+- ESLint with plugins for React & hooks
+- Lazy-loaded components with suspense fallback
+
+---
+
+## 📸 Screenshots / Preview
+
+**Map View**  
+![Map View](./public/preview/map.png)
+
+**City Details**  
+![City Details](./public/preview/details.png)
+
+---
+
+## ⚡ Getting Started
+
+### Prerequisites
+
+- Node.js v20+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/worldwise.git
+cd worldwise
+
+npm install
+# or
+yarn install
+
+npm run server   # Start JSON server on port 8000
+npm run dev      # Start Vite dev server
+
+```

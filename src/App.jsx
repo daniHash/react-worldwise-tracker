@@ -5,13 +5,6 @@ import { CitiesProvider } from "./contexts/CitiesContext";
 import { AuthProvider } from "./contexts/AuthContext";
 import ProtectedRoute from "./Pages/ProtectedRoute";
 
-// import Product from "./Pages/Product";
-// import Homepage from "./Pages/Homepage";
-// import Pricing from "./Pages/Pricing";
-// import Login from "./Pages/Login";
-// import AppLayout from "./Pages/AppLayout";
-// import PageNotFound from "./Components/PageNotFound";
-
 import CityList from "./Components/CityList";
 import CountryList from "./Components/CountryList";
 import City from "./Components/City";
